@@ -83,7 +83,7 @@ if(isset($_SESSION['error'])){
 
 <!-- <div class="main"> -->
 <div class="composeForm">
-    <form action="password.php" method="POST"> 
+    <form action="message.php" method="POST"> 
         
         <span> 
         From:
@@ -105,8 +105,8 @@ if(isset($_SESSION['error'])){
         <textarea class="messageText" cols= "35" rows="5"></textarea>
         </span><br>
 
-          <div class="button">
-            <input type="submit" name = "login_details" value="Send">
+        <div class="button">
+        <input type="submit" name = "login_details" value="Send">
         </div>        
     </form>
 

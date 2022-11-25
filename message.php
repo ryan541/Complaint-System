@@ -1,12 +1,13 @@
 <?php
+session_start();
 include 'dbconnect.php';
 if(isset($_POST['login_details'])){//details is the button name
     $From = $_POST['From'];
     $To = $_POST['To'];
-    $Subject =md5(sha1($_POST['Subject']));
+    $Subject =($_POST['Subject']);
     $Message = $_POST['Message'];
     
-$sql = "INSERT INTO Complaint (Complaint,Staff ID,Student ID) VALUES('$Message','$To','$From')";
+$sql = "INSERT INTO Complaint (Student ID,Staff ID,Complaint ID,Complaint) VALUES ('$From','$To','$Subject','$Message')";
 if($conn ->query($sql)===true){
     
     header("location:compose.php");
