@@ -97,16 +97,16 @@ if(isset($_SESSION['error'])){
         
         <span>
         Subject:
-        <input type="text" id="subject" placeholder="Enter Subject" name="subject" required>     
+        <input type="text" id="Subject" placeholder="Enter Subject" name="Subject" required>     
         </span><br>
 
         <span>
         Message :
-        <textarea class="messageText" cols= "35" rows="5"></textarea>
+        <textarea class="messageText" cols= "35" rows="5" name="Message"></textarea>
         </span><br>
 
         <div class="button">
-        <input type="submit" name = "login_details" value="Send">
+        <input type="submit" name = "message" value="Send">
         </div>        
     </form>
 
