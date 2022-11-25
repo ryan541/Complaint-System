@@ -15,7 +15,7 @@ if(isset($_SESSION['error'])){
 
 <head>
   <title>Complaint System</title>
-  <link rel="stylesheet" type="text/css" href="login.css">
+  <link rel="stylesheet" type="text/css" href="./styles/style.css">
   <script src="https://kit.fontawesome.com/97ab0026dc.js" crossorigin="anonymous"></script>
 
 </head>
