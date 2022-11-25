@@ -1,0 +1,261 @@
+*{
+  margin: 0;
+  padding: 0;
+  outline:none;
+  border: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+
+nav{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  background: #fff;
+  width: 90px;
+  overflow: hidden;
+  transition: width 0.2s linear;
+  box-shadow: 0 20px 35px rgba(0,0,0,0.1);
+}
+.logo{
+  text-align: center;
+  display: flex;
+  transition: all 0.5s ease;
+  margin: 10px 0 0 10px;
+}
+.logo img{
+  width:45px;
+  height:45px;
+  border-radius: 50%;
+}
+.logo span{
+  font-weight: bold;
+  padding-left:15px;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+a{
+  position:relative;
+  color:rgb(85,83, 83);
+  font-size: 14px;
+  display: table;
+  width:170px;
+  padding: 10px;
+}
+.fas{
+  position: relative;
+  width: 70px;
+  height: 40px;
+  top: 14px;
+  font-size: 20px;
+  text-align: center;
+}
+.nav-item{
+  position: relative;
+  top: 12px;
+  margin-left: 10px;
+  
+}
+.one{
+  margin-left: 20px;
+ white-space: nowrap;
+}
+a.hover{
+  background-color:gray;
+}
+nav:hover{
+  width: 170px;
+  transition: all 0.5s ease;
+}
+.logout{
+  position: absolute;
+  bottom: 0;
+}
+.sideCos{
+  margin-top: 50%;
+}
+.sideCos li{
+padding-bottom:30px;
+}
+  /* Active/current link */
+  .sidebar a.active {
+    background-color: #83acf1;
+    color: white;
+  }  
+  /* Links on mouse-over */
+  .sidebar a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+    border-radius: 25px;
+  }  
+  /* Page content. The value of the margin-left property should match the value of the sidebar's width property */
+  div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1000px;
+  }
+  
+  /* On screens that are less than 700px wide, make the sidebar into a topbar */
+  @media screen and (max-width: 700px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar a {float: left;}
+    div.content {margin-left: 0;}
+  }  
+  /* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+  @media screen and (max-width: 400px) {
+    .sidebar a {
+      text-align: center;
+      float: none;
+    }
+  } */
+
+  /*Top nbav*/
+ 
+  
+  body{
+    background: whitesmoke;
+    margin-right:0px ;
+    height: 80px;
+    
+  }
+  .char{
+    text-align: center;
+   
+    
+    padding-top: 20px;
+    color: white;
+    background-color:#478778;
+          
+  }
+  .searchbar{
+text-align: center;
+}
+
+.users{
+  background-color:red ;
+  float: right;
+  margin-right: 30px;
+  margin-top: 17px;
+  }
+  
+  /*Iox form*/
+  .composeForm{
+    align-content: center;
+    width: 50%;
+    height: 520px;
+    background-color:#9FE2BF;
+    margin-left: 30%;
+    margin-top: 50px;
+    padding-top: 20px;
+    border-radius: 25px;
+  }
+  .form2{
+    margin-top: 30px;
+    margin-left: 30px;
+    
+    }
+  .form2 input{
+      margin-bottom: 30px;
+      width: 300px;
+      height: 40px;
+      margin-left: 30px;
+      padding-left: 5px;
+      font-size: 15px;
+      border-radius: 15px;
+    } 
+    .composeForm .messageText{
+      background-color:;
+      height: 200px;
+    }
+    .form2 button{
+      border-radius: 25px;
+      float: right;
+      margin-right: 20px;
+      background-color: #478778;
+    }
+    .form2 button a{
+      color:white ;
+    }
+
+
+
+
+
+
+
+
+
+  
+
+/*Login*/
+  .container {
+    width: 380px;
+    margin: auto;
+    border-radius:25px ;
+    background-color: #478778;
+    margin-top: 70px;
+}
+
+.header{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+
+}
+ 
+.main {
+    text-align: center;
+}
+.main input{
+  width: 300px;
+  height: 40px;
+  border: none;
+  outline:none;
+  padding-left: 40px;
+  box-sizing: border-box;
+  font-size: 15px;
+  color: #333;
+  margin-bottom: 40px;
+  border-radius: 25px;
+}
+.main button  {
+  background-color: #023020;
+  padding-left: 0px;
+  letter-spacing: 1px;
+  font-weight:bold ;
+  margin-bottom: 90px;
+  width: 100px;
+  height: 40px;
+  border: none;
+  border-radius: 25px;
+}
+.main button a{
+text-decoration:none;
+color: white;
+margin-left: -96px;
+}
+.main button:hover{
+  box-shadow:  2px 2px 5px #555;
+  background-color: #7799d4;
+} 
+.main input:hover{
+  box-shadow:  2px 2px 5px #555;
+  background-color: #ddd;
+}
+.main span {
+  position: relative;
+}
+.main i {
+  position: absolute;
+  left: 15px;
+  color: #333;
+  font-size: 16px;
+  top: 2px;
+}
