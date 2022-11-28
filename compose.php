@@ -106,7 +106,7 @@ if(isset($_SESSION['error'])){
         </span><br>
 
         <div class="button">
-        <input type="submit" name = "message" value="Send">
+        <input type="submit" name = "submit" value="Send">
         </div>        
     </form>
 
