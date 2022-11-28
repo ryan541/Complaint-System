@@ -3,7 +3,7 @@
 
 <head>
   <title>Complaint System</title>
-  <link rel="stylesheet" type="text/css" href="login.css">
+  <link rel="stylesheet" type="text/css" href="./styles/login.css">
   <script src="https://kit.fontawesome.com/97ab0026dc.js" crossorigin="anonymous"></script>
 
 </head>
@@ -31,6 +31,8 @@
         <div class="button">
             <input type="submit" name = "sign_details" value="Sign Up">
         </div>
+        <h4><a href="http://localhost/Complaint_system/login.php">Have an account?Click here!</a></h4>
+        
          <!-- <button name="details" type="submit">
               <a href="compose.html">Login</a>
         </button>  -->

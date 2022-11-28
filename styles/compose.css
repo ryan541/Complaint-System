@@ -14,23 +14,34 @@
     bottom: 0;
     left: 0;
     height: 100%;
-    background: #fff;
-    width: 90px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    width: 80px;
     overflow: hidden;
     transition: width 0.2s linear;
     box-shadow: 0 20px 35px rgba(0,0,0,0.1);
   }
+  .users{
+    background-color:purple;
+    border-radius: 15px;
+    float: right;
+    margin-right: 30px;
+    margin-top: 17px;
+    font-size: 20px;
+    }
+
   .logo{
     width:60x;
     height:60px;
     position: absolute;
-    background-color: red;
-    text-align: center;
+    background-color: transparent;
     display:inline-block;
     transition: all 0.5s ease;
-    margin: 10px 0 0 10px;
+    margin: 10px 0 0 -10px;
+    padding-left: -40px;
   }
   .logo img{
+    left: 0px;
     width:100%;
     height:100%;
     border-radius: 50%;
@@ -38,10 +49,9 @@
   }
   .logo span{
     font-weight: bold;
-    padding-left:15px;
+    padding-left:10px;
     font-size: 18px;
-    text-transform: uppercase;
-    
+    text-transform: uppercase;    
   }
   a{
     position:relative;
@@ -52,8 +62,6 @@
     padding: 10px;
   }
   .fas{
-    
-    background-color: red;
     position: relative;
     width: 70px;
     height: 20px;
@@ -66,16 +74,19 @@
     top: 30px;
     margin-left: 10px;
     
+    
   }
   .one{
     margin-left: 20px;
-   white-space: nowrap;
+    white-space: nowrap;
+    
+
   }
   a.hover{
     background-color:gray;
   }
   nav:hover{
-    background-color: yellow;
+    background-color: skyblue;
     width: 170px;
     transition: all 0.5s ease;
   }
@@ -84,7 +95,7 @@
     bottom: 50px;
   }
   .sideCos{
-    background-color: blue;
+    background-color: transparent;
     margin-top: 100%;
   }
   .sideCos li{
@@ -94,12 +105,14 @@
     .sidebar a.active {
       background-color: black;
       color: white;
+      margin-top: 20px;
     }  
     /* Links on mouse-over */
     .sidebar a:hover:not(.active) {
       background-color: #555;
       color: white;
       border-radius: 25px;
+      height: 20px;
     }  
     /* Page content. The value of the margin-left property should match the value of the sidebar's width property */
     div.content {
@@ -129,31 +142,24 @@
     /*Top nbav*/
    
     
-    body{
-      background: whitesmoke;
+    /* body{
+      background: red;
       margin-right:0px ;
       height: 80px;
       
-    }
+    } */
     .char{
       text-align: center;
-     
-      
       padding-top: 20px;
       color: white;
-      background-color:#478778;
+      background-color:red;
             
     }
     .searchbar{
     text-align: center;
-  }
-  
-  .users{
-    background-color:blueviolet;
-    float: right;
-    margin-right: 30px;
-    margin-top: 17px;
     }
+  
+  
     
     /*Iox form*/
     .composeForm{

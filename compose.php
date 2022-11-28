@@ -32,7 +32,7 @@ if(isset($_SESSION['error'])){
     <ul>
         <li>
         <div class="logo">
-        <img src="./images/user.png" alt="img" >
+        <img src="./images/user2 (1).png" width="10px " alt="img" >
         <span class="users">  <p>Hi,    
         <?php echo $_SESSION['username'] ?>
         </span>
@@ -59,10 +59,11 @@ if(isset($_SESSION['error'])){
         </a></li> 
        
         <li>
-            <a href="login.php"  class="logout">
+            <div class="logout"> <a href="login.php"></a>
             <i class="fas fa-sign-out-alt"></i>
             <span class="nav-item">Log out</span> 
-        </a></li> 
+            </div>
+        </li> 
         </div>
     </ul>
 </nav>
@@ -86,7 +87,7 @@ if(isset($_SESSION['error'])){
     <form action="message.php" method="POST"> 
         
         <span> 
-        From:
+        Admission Number:
         <input type="text" id="From" placeholder="From" name="From" required>          
         </span><br>
 

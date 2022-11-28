@@ -15,7 +15,7 @@ if(isset($_SESSION['error'])){
 
 <head>
   <title>Complaint System</title>
-  <link rel="stylesheet" type="text/css" href="./styles/style.css">
+  <link rel="stylesheet" type="text/css" href="./styles/login.css">
   <script src="https://kit.fontawesome.com/97ab0026dc.js" crossorigin="anonymous"></script>
 
 </head>
@@ -36,6 +36,7 @@ if(isset($_SESSION['error'])){
           <i class="fa fa-lock"></i>
           <input type="password" id="Password" placeholder="Password" name="Password" required>
         </span><br>
+        <h4><a href="http://localhost/Complaint_system/sign.php">Don't have an account?Click here!</a></h4>
         <div class="button">
             <input type="submit" name = "login_details" value="login">
         </div>
