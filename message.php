@@ -14,6 +14,7 @@ if(isset($_POST['submit'])){
     echo "$From";
     
 $sql = "INSERT INTO Complaints (Student_ID,Staff_ID,Complaint) VALUES('$From','$To','$Message')";
+
 if($conn ->query($sql)===true){
     
     header("location: compose.php");

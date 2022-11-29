@@ -16,6 +16,27 @@ else{
 }
 }
 
+if(isset($_POST['sign_details'])){//details is the button name
+
+    $Username = $_POST['Username'];
+    $Adm = $_POST['Adm'];
+    $School = $_POST['School'];
+    $Sub = $_POST['Sub'];
+    
+    
+    
+$sql = "INSERT INTO Students (Name,Student_ID,School,Subschool_ID) VALUES('$Username','$Adm','$School','$Sub')";
+if($conn ->query($sql)===true){
+    header("location:compose.php");
+
+}
+else{
+
+}
+}
+
+
+
 if(isset($_POST['login_details'])){//details is the button name
 
     $Username = $_POST['Username'];

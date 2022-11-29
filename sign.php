@@ -21,6 +21,18 @@
           <input type="text" id="Username" placeholder="Username" name="Username" required>
         </span><br>
         <span>
+          <i class="fa fa-user"></i>
+          <input type="text" id="Adm" placeholder="Admission Number" name="Adm" required>
+        </span><br>
+        <span>
+          <i class="fa fa-user"></i>
+          <input type="text" id="School" placeholder="School" name="School" required>
+        </span><br>
+        <span>
+          <i class="fa fa-user"></i>
+          <input type="text" id="Sub" placeholder="Sub-School" name="Sub" required>
+        </span><br>
+        <span>
           <i class="fa fa-lock"></i>
           <input type="password" id="Password" placeholder="Password" name="Password" required>
         </span><br>
